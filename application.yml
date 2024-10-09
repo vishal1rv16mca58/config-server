@@ -7,7 +7,7 @@ eureka:
     fetch-registry: true
     register-with-eureka: true
     serviceUrl:
-      defaultZone: http://localhost:8084/
+      defaultZone: http://localhost:8671/
   instance:
     prefer-ip-address: true
 
