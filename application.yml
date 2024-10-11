@@ -1,13 +1,14 @@
 spring:
   application:
-    name: Config-Dev
+    name: Config-Server
 
   eureka:
     client:
       fetch-registry: true
       register-with-eureka: true
       serviceUrl:
-        defaultZone: http://localhost:8084/eureka/
+        defaultZone: http://localhost:8084/
     instance:
       prefer-ip-address: true
+
 
